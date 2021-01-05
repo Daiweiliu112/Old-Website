@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto|Work+Sans&display=swap");
+
+html{
+    background-image: url("scene3.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    overflow-y:scroll;
+    transform: translate(0%,0%);
+}
+
+
+
+.top{
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+    background-color: black;
+    height:3vw;
+    width:20000px;
+    transform: translate(-1%,-35%);
+}
+
+.top header{
+    color: white;
+    transform: translate(1%, 100%);
+    font-family: Work sans;
+    font-size:1vw;
+}
+
+.top ul{
+    margin-left:45vw;
+    margin-top:0.3vw;
+}
+
+.top li{
+    display:inline;
+    padding: 2vw;
+}
+.top a{
+    color:white;
+    text-decoration: none; 
+    padding:5px;
+    display: inline-block;
+    position: relative;    
+    opacity: 0.6;
+    transition:0.3s;
+    font-family: Work sans;
+    font-size:1vw;
+    margin:auto;
+    z-index: 1;     
+    padding-left: 1em;     
+    padding-right:1em;
+    margin: -1em;
+
+}
+
+.top a:hover{
+    background-color: rgba(255, 255, 255, .3);
+    opacity: 1;
+}
+
+.link ul{
+    transform: translate(92%, -380%);
+    padding: 0%;
+}
+
+.link li{
+    display: inline;
+    margin: 0%;
+    color:white;
+    }
+.link button{
+   padding: 5px;
+}
+
+.bot {
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    background-color: black;
+    height: 40px;
+    width: 2000px;
+    transform: translate(0%, 1000%);
+}
+
+.block{
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+    background-color: grey;
+    height:45vw;
+    width:65vw;
+    /*transform: translate(10%, -10%);*/
+    opacity: 1;
+    font-family: Work sans;
+    font-size: 1.2em;
+    text-align: center;
+    margin: auto;
+    transform: translate(0%, 0%);
+    padding-left:10px;
+    padding-right:10px;
+    overflow: scroll;
+
+}
+
+img{
+    width: 400px;
+    transition:transform 0.25s ease;
+}
+
+
+
+img.trans_img{
+    height: 250px;
+}
+img.trans_img:hover{
+    -webkit-transform:scale(2);
+    transform:scale(2) translate(-50%,0);
+}
+
+img.comp_img:hover{
+    -webkit-transform:scale(2);
+    transform:scale(2) translate(0%,0);
+}
+
+img.box_img:hover {
+    -webkit-transform:scale(2);
+    transform:scale(2) translate(50%,0);
+}
+img.guizero_question{
+    height: 250px;
+}
+
+img.orientation{
+    width: 550px;
+    height: 400px;
+}
+

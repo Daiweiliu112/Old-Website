@@ -1,0 +1,6 @@
+html{
+    background-image: url("scene3.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    overflow: hidden;
+}

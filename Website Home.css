@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto|Work+Sans&display=swap");
+
+
+*{
+    box-sizing: border-box;/* width take account of width attr*/
+    color:#777;
+}
+
+html {
+    background-image: url("scene3.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    overflow: hidden; /* problem with repeating image, x,y scrolling and words getting cut off solved here. */
+}
+
+.Buttons{
+    background-color:transparent;
+    width:55vw;
+    height:1000px;
+    margin:auto;
+
+    
+}
+.Buttons h1{
+    /*transform: translate(38%, 300%);*/
+    margin-left: 15vw;
+    margin-top: 15vw;
+    color: black;
+    font-size: 3vw;
+    font-family: Work Sans;
+    text-shadow: -1px -1px 0 rgb(122, 117, 117);
+}
+
+.Buttons ul{ /* ths is the over all section of buttons */
+     /*transform: translate(28%, 170%);*/
+     margin-left:5vw;
+     font-size: 2.5vw;
+     font-weight: lighter;
+     text-shadow: -1px -1px rgb(247, 243, 243);
+     /*padding-left:670px;*/
+     
+ }
+
+ .Buttons li{ /* this is the list section of buttons */
+     display: inline; /* makes the list display horizontal*/
+ }
+
+ .Buttons a{ /* this is the link section of buttons */
+     padding: 0.5em;
+     color:black;
+     text-decoration: none; 
+     display: inline-block; /*block count horizontal and vertical */
+     transition: 0.3s;
+     opacity: 0.6;
+     font-family: Work sans;
+ }
+
+ .Buttons a:hover {
+     background-color: rgba(255, 255, 255, .3);
+     opacity: 1;
+ }
+
+/* removed button links for LinkedIn and Github*/
+ .link ul{
+     margin-left:1500px;
+     margin-bottom:100px;
+     padding: 0%;
+ }
+
+ .link li{
+     display: inline;
+     margin: 0%;
+     color:white;
+     }
+.link button{
+    padding: 5px;
+}
+
+.top {
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+    background-color: black;
+    height:3vw;
+    width:1000000000000px;
+    transform: translate(-10%,-18%);
+}
+
+.top header{
+    color: white;
+    transform: translate(10%, 50%);
+    font-family: Work Sans;
+}
+
+.top link{
+    color: white;
+    transform: translate(50%, 50%);
+    font-family: Work Sans;
+}
+
+.bot {
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    background-color: black;
+    height: 40px;
+    width: 20000000000px;
+    position:relative;
+    top:750px;
+}

@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto|Work+Sans&display=swap");
+
+html{
+    background-image: url("Profile pic.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    overflow: hidden;
+    transform: translate(0%,0%);
+}
+
+
+.top{
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+    background-color: black;
+    height:3vw;
+    width:20000px;
+    transform: translate(-1%,-35%);
+}
+
+.top header{
+    color: white;
+    transform: translate(1%, 80%);
+    font-family: Work sans;
+    font-size:1vw;
+}
+
+.top ul{
+    margin-left:45vw;
+    margin-top:0.3vw;
+}
+
+.top li{
+    display:inline;
+    padding: 2vw;
+}
+.top a{
+    color:white;
+    text-decoration: none; 
+    padding:5px;
+    display: inline-block;
+    position: relative;    
+    opacity: 0.6;
+    transition:0.3s;
+    font-family: Work sans;
+    font-size:1vw;
+    margin:auto;
+    z-index: 1;     
+    padding-left: 1em;     
+    padding-right:1em;
+    margin: -1em;
+
+}
+
+.top a:hover{
+    background-color: rgba(255, 255, 255, .3);
+    opacity: 1;
+}
+
+/*
+.buttons {
+    transform: translate(28%, -190%);
+}
+
+.buttons a{
+    color:white;
+    text-decoration: none; 
+    display: inline-block; 
+    opacity: 0.6;
+    font-family: Work sans;
+    margin-left:5vw;
+}
+
+.buttons li{
+    display: inline;
+}
+
+.buttons a:hover {
+    background-color: rgba(255, 255, 255, .3);
+    opacity: 1;
+}
+*/
+.link ul{
+    transform: translate(92%, -380%);
+    padding: 0%;
+}
+
+.link li{
+    display: inline;
+    margin: 0%;
+    color:white;
+    }
+.link button{
+   padding: 5px;
+}
+
+.intro{
+    color: black ;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+    background-color:grey;
+    height:30vw;
+    width:30vw;
+    /*transform: translate(10%, -100%);*/
+    transform:translate(0,0);
+    font-family: Work sans;
+    font-size: 1vw;
+    padding:10px;
+}
+
+.intro h1{
+    text-align: center;
+}
+
+.intro body{
+    text-indent: 40px;
+}
+
+.bot {
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    background-color: black;
+    height: 40px;
+    width: 2000px;
+    transform: translate(0%, 1000%);
+}
+
+.block{
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+    height:30vw;
+    width:30vw;
+    margin-left:2vw;
+    /*transform: translate(10%, -10%);*/
+    
+    
+}
